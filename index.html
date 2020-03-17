@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  
+      <a href="contact.html">Contact</a>
+       <!--<a href="about.html">About</a>-->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+</div>
+
+<div style="padding-left:16px">
+  <h1 class="title"> Deepesh Karki</h1>
+  
+</div>
+
+<p class="homeText"><big> 
+    I am a freelancing web developer. I can create a very much needed website for you or your business.
+     I can help you boost your business via different social media platforms and design business cards and pamphlets the way you desire. 
+</big> </p>
+<form action="mailto:dpeskarki6635@gmail.com">
+<button class="button" type="submit" ><big>Lets go!!</big></button>
+</form>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

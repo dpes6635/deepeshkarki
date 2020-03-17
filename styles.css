@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/b.jpg);
+    position: relative;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+ .title{
+     font-size: 3.5em;
+     
+     color:royalblue;
+     text-align: center;
+     text-shadow: royalblue ;
+ }
+
+ h1 {
+    text-shadow: 2px 2px black;
+  }
+  
+  .homeText {
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10em;
+    margin-right: 10em;
+    color:royalblue;
+  }
+
+  .button {
+    background-color:steelblue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    margin-left: 40em;
+    margin-top: 10em;
+  }
+  .contact{
+
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+  h2{
+    text-shadow: red;
+    margin-left: 10em;
+  }
