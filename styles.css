@@ -42,6 +42,7 @@ body {
     .topnav a.icon {
       float: right;
       display: block;
+        width:auto;
     }
   }
   
@@ -78,6 +79,7 @@ body {
     margin-left: 10em;
     margin-right: 10em;
     color:royalblue;
+      width:auto;
   }
 
   .button {
